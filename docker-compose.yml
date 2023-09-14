@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  spyder_ide:
+    container_name: spyder_sv
+    image: compdatasci/spyder-desktop
+    volumes:
+      - .:/home/ubuntu/myproject
